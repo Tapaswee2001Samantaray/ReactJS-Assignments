@@ -1,22 +1,26 @@
-import logo from './google-canada.webp';
+import React, { useState } from "react";
 import './App.css';
 
-function App(props) {
+function App() {
+  const [bio, setBio] = useState("");
   return (
-    <div className="App">
-      <div >
-        <img src={logo} alt="logo"/>
-      </div>
-      <div>
-        <input  id='searchBar' type="text" />
-      </div>
-      <div>
-        <button className='btn'>Google Search</button>
-        <button className='btn'>I'm Feeling Lucky</button>
-      </div>
-      <div >
-        <p>Google.ca offererd in: <span id="lang" >{props.language }</span></p>
-      </div>
+    <div className="OuterContainer">
+
+      <textarea id="area" 
+        onChange={(e) => {
+          setBio(e.target.value)
+        }}></textarea>
+
+      <br />
+
+      <button id="btn" onClick={() => {
+        // let newBio = bio
+        setBio(bio.toUpperCase())
+      }}>Change To UpperCase
+      </button>
+
+      <p id="para">{bio}</p>
+
     </div>
   );
 }
