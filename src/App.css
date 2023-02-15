@@ -1,26 +1,6 @@
-.OuterContainer{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 100px;
-}
-
-#area{
-  width: 500px;
-  height: 100px;
-  padding: 50px;
-  margin-left:330px; 
-  margin-bottom: -10px;
-}
-
-#btn{
-  background-color: lightgray;
-  width: 100px;
-  height: 50px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-left:570px; 
-}
-
-#para{
-  margin-left:420px; 
-}
+.post-card{
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 60px;
+  margin: 10px 50px;
+}    
