@@ -1,26 +1,25 @@
-.OuterContainer{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 100px;
+.container{
+  background-color: brown;;
+  width: 20rem;
+  margin-left: 75vh;
+  margin-top: 30vh;
 }
 
-#area{
-  width: 500px;
-  height: 100px;
-  padding: 50px;
-  margin-left:330px; 
-  margin-bottom: -10px;
+.btn{
+  background-color: rgb(154, 154, 177);
+  border: none;
+  margin-left: 7vh;
+  margin-bottom: 5px;
+  border-radius: 3px;
 }
 
-#btn{
-  background-color: lightgray;
-  width: 100px;
-  height: 50px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-left:570px; 
+h2{
+  margin-left: 14vh;
+  font-family: sans-serif;
 }
 
-#para{
-  margin-left:420px; 
+p{
+  margin-left: 18vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',sans-serif;
+  font-size: 5vh;
 }
